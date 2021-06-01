@@ -1,4 +1,3 @@
-const MathUtils = require('./MathUtils');
 const { Perceptron, Sigmoid } = require('./Neurons');
 
 const perceptron = new Perceptron(3, [-2, -2]);
