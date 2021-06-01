@@ -2,7 +2,7 @@ const MathUtils = require('../MathUtils');
 const Neuron = require('./neuron');
 
 class Sigmoid extends Neuron {
-    fire(inputs) {
+    fire (inputs) {
         if (this._cardinality !== inputs.length) {
             throw new Error('Cardinality of input vector does not match that of weights vector.');
         }
